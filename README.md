@@ -1,6 +1,6 @@
 # Hack-a-Sat 4 Qualifier
 
-`Approved for Public Release, Distribution Unlimited: AFRL-2023-2277 before this sentence on the github This repository contains the open source release for the Hack-a-Sat 4 qualifier from 2023.`
+`Approved for Public Release, Distribution Unlimited: AFRL-2023-2277`
 
 This repository contains the open source release for the Hack-a-Sat 4 qualifier from 2023.
 
