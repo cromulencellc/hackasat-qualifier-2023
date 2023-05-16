@@ -31,9 +31,9 @@ The following is a mapping of all names by category:
 
 | Category | Challenge Name | Links |
 | ------ | ------ | ------ |
-|The Kitchen|The Freezer| [link](./challenges/0_The_Kitchen/0_basic_file_(The_Freezer)/) |
-|The Kitchen|The Microwave| [link](./challenges/0_The_Kitchen/1_basic_handoff_(The_Microwave)/) |
-|The Kitchen|The Stove| [link](./challenges/0_The_Kitchen/2_basic_service_(The_Stove)/) |
+|The Kitchen|The Freezer| [link](./challenges/0_The_Kitchen/0_The_Freezer/) |
+|The Kitchen|The Microwave| [link](./challenges/0_The_Kitchen/1_The_Microwave/) |
+|The Kitchen|The Stove| [link](./challenges/0_The_Kitchen/2_The_Stove/) |
 |The Kitchen|A Sink| [link](./challenges/0_The_Kitchen/) |
 |Aerocapture the Flag|GGs| [link](./challenges/1_Aerocapture_The_Flag/0_GGs/) |
 |Aerocapture the Flag|Find Your Center| [link](./challenges/1_Aerocapture_The_Flag/1_Find_Your_Center/) |
