@@ -1,0 +1,29 @@
+{
+  "version": "2",
+  "remote": {},
+  "npm": {
+    "specifiers": {
+      "@tool-belt/type-predicates@1.2.2": "@tool-belt/type-predicates@1.2.2",
+      "elfinfo@0.4.0-beta": "elfinfo@0.4.0-beta",
+      "iced-x86@1.18.0": "iced-x86@1.18.0"
+    },
+    "packages": {
+      "@tool-belt/type-predicates@1.2.2": {
+        "integrity": "sha512-IuUa3c0fOEJ6YnzMvfPA5BZ2gLafPgSU9YJmXV3hozlxbQGNPMVHrTiMoAERklhssxVQ5AtfEUI6r+6kS4npKw==",
+        "dependencies": {}
+      },
+      "@types/node@14.18.36": {
+        "integrity": "sha512-FXKWbsJ6a1hIrRxv+FoukuHnGTgEzKYGi7kilfMae96AL9UNkPFNWJEEYWzdRI9ooIkbr4AKldyuSTLql06vLQ==",
+        "dependencies": {}
+      },
+      "elfinfo@0.4.0-beta": {
+        "integrity": "sha512-wZXXtJmqERZz8S31gIwY+HrqJUdf82g/4YbsrxfR/cpcvLo35WVczjRsn37cBWlLzes0SSl6gvTK7huKNqqYgw==",
+        "dependencies": { "@types/node": "@types/node@14.18.36" }
+      },
+      "iced-x86@1.18.0": {
+        "integrity": "sha512-T7O2wjy78Yk/JCaMUjYqQwxHoZvDlLidZkQcQ9x9xe9pxvcQEokglLyJiMcAmLAjH8fRYy8tQ2DNIgT+krKuew==",
+        "dependencies": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[build-system]
+requires = [
+    "setuptools>=54",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyctf"
+version = "0.0.3"
+description = "A helper library for running CTF in a docker container, has helpers for input managmement, flag managmement"
+dependencies = [
+    "numpy"
+]

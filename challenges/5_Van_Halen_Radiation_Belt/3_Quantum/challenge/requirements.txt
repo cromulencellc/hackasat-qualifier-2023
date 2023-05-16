@@ -1,0 +1,7 @@
+mpmath==1.2.1
+numpy==1.24.2
+pyasn1==0.4.8
+pycryptodomex==3.17
+pyctf
+rsa==4.9
+sympy==1.11.1

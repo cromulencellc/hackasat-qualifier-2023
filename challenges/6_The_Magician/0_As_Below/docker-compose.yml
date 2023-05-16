@@ -1,0 +1,11 @@
+version: '3'
+services:
+  challenge-dev:
+    build: 
+      dockerfile: './Dockerfile-dev'
+    command: 'zsh'
+    volumes:
+      - ./challenge:/chall
+      - .:/mnt
+      - ./solver:/solver
+      - ./runner:/runner

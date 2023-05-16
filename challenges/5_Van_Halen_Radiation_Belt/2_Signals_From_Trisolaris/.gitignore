@@ -1,0 +1,7 @@
+bin
+*.pyc
+*.bsp
+*.dat
+log
+.vscode/launch.json
+static/*zip

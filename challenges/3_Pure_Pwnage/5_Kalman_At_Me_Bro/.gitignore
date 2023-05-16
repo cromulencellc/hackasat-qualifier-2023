@@ -1,0 +1,19 @@
+
+# Binaries
+.glibc
+data/*
+*.bin
+**.pyc
+__pycache__
+# Build Artifacts
+static/build
+build/
+
+# Challenge Artifacts
+*.csv
+
+# Other Artifacts
+.gdb_history
+log
+challenge/__pycache__/filter_binary.cpython-310.pyc
+token

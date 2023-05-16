@@ -1,0 +1,15 @@
+[build-system]
+requires = [
+    "setuptools>=54",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phased_array"
+version = "0.0.2"
+description = "A challenge library that generates phased array data"
+dependencies = [
+    "numpy",
+    "scipy"
+]

@@ -1,0 +1,1 @@
+for Leavenworth Street in the The Magician.First of all, we reversed the process of this program and found that its main method is to go through the maze. Then we got its operation code N E S W through reverse,Then we write the dfs algorithm to search and solve according to the generated maze.

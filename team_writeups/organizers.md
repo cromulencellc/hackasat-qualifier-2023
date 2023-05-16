@@ -1,0 +1,2 @@
+quantum: perform the classical part of Shor's algorithm. Ask for r = the order of 2 mod N, try taking gcd(pow(2, r//2, N) - 1,N) and gcd(pow(2, r//2, N) + 1, N) and hope a factor comes out. Try again if not.
+Then just decrypt

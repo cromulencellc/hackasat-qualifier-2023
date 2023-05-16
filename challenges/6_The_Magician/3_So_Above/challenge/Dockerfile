@@ -1,0 +1,17 @@
+FROM denoland/deno:debian
+
+RUN apt-get update -y && apt-get install -y build-essential git npm ruby \
+    && apt-get clean && rm -f /var/lib/apt/lists/*_*
+
+RUN mkdir /chall && \
+  chown -R 1000:1000 /chall /deno-dir
+WORKDIR /chall
+COPY --chown=1000:1000 . /chall/
+
+RUN deno install vendor.ts && \
+  deno run --allow-all vendor.ts
+
+USER 1000:1000
+
+ENTRYPOINT [ "/usr/bin/ruby" ]
+CMD ["driver.rb"]

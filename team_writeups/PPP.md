@@ -1,0 +1,5 @@
+For the Meet Me at Midway challenge in the Van Halen category, the PPP team began by unpacking the files and researching the context of the question. 
+
+We found that 'OP-20-G' referred to U.S. Navy signal intelligence. Given that the encrypted message was intercepted around Midway, we were able to narrow down that it was likely a Japanese naval code: JN-25.
+
+To crack it, we found the book the cipher referenced, The First Men in the Moon by H.G. Wells, with the sorted word_dictionary.json file. Then, we found possible key candidates by searching each column of the encrypted_message.txt, performing JN-25's modified arithmetic, and retrieving the decoded translation from the word dictionary. After checking the book for anything missing, we noticed that all messages except the last one could be decoded to the first paragraph of the book, which gave us the correct keys (consecutive primes); with that, we retrieved the flag!

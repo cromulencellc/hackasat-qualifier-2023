@@ -1,0 +1,23 @@
+{
+    "version": 4,
+    "configurePresets": [
+      {
+        "name": "x86",
+        "description": "Magic Space Bussin",
+        "binaryDir": "${sourceDir}/build", 
+        "generator": "Unix Makefiles"
+      }
+    ],
+    "buildPresets": [
+      {
+        "name": "x86",
+        "configurePreset": "x86",
+        "targets": [ "all"]
+      },
+      {
+        "name": "clean-x86",
+        "configurePreset": "x86",
+        "targets": [ "clean"]
+      }
+    ]
+}

@@ -1,0 +1,11 @@
+version: '3'
+services:
+  challenge-dev:
+    build: 
+      context: 'challenge'
+      dockerfile: './Dockerfile-dev'
+    command: 'bash'
+    volumes:
+      - ./challenge:/chall
+      - .:/mnt
+      - ./solver:/solver

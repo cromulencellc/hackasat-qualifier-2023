@@ -1,0 +1,9 @@
+numpy
+scipy
+pwntools
+matplotlib
+pytz
+findpeaks
+skyfield
+scikit-image
+alive_progress

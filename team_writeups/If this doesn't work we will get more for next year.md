@@ -1,0 +1,2 @@
+Dashing: A very straight forward challenge. By opening the audio file with Audacity audio editor and choosing the spectogram view, focusing on the 200Hz frequency, there could be found a morse code as shown on the image below.
+After decoding the morse code encoded message, we retrieve the flag.

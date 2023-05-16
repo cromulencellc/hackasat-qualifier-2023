@@ -1,0 +1,6 @@
+static/build
+.vscode
+.gdb_history
+log
+warning_public
+warning_public.tar.gz

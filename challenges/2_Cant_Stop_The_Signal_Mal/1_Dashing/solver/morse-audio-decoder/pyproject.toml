@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "morse-audio-decoder"
+version = "0.1.1"
+description = "Decode morse code from input audio file"
+readme = "README.md"
+repository = "https://github.com/mkouhia/morse-audio-decoder"
+authors = ["Mikko Kouhia <mikko.kouhia@iki.fi>"]
+license = "MIT"
+include = ["morse.ini"]
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.11"
+numpy = "^1.22.2"
+scikit-learn = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+scipy = "^1.8.0"
+matplotlib = "^3.5.1"
+pytest = "^7.0.1"
+pylint = "^2.12.2"
+black = "^22.1.0"
+pytest-cov = "^3.0.0"
+coverage = {extras = ["toml"], version = "^6.3.2"}
+pytest-mock = "^3.7.0"
+
+[tool.poetry.scripts]
+morse-audio-decoder = "morse_audio_decoder.__main__:main"
+
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:",
+    "raise NotImplementedError",
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

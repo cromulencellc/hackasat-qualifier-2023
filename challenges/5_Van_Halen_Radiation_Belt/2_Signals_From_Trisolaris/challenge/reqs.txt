@@ -1,0 +1,5 @@
+skyfield
+scipy
+alive-progress
+pytz
+pandas

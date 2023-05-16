@@ -1,0 +1,3 @@
+smash-baby mini writeup
+-----------------------
+We are given a RISC-V binary that accepts user input. We reverse-engineered the binary using Ghidra and discovered a function vulnerable to buffer overflow, as well as the character sequence needed to trigger it. Because we are given a stack leak, we are able to overwrite the return address with the address of our buffer and execute shellcode. We handcrafted shellcode that loads register a0 with the address of the flag buffer on the stack (indexed from the pre-existing stack pointer in a1) and then jumps to the puts() function to print the flag to stdout.

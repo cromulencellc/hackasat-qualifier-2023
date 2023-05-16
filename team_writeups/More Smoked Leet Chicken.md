@@ -1,0 +1,3 @@
+RISC-V Smash Baby:
+
+Reverse-engineering the binary reveals that we can overflow a stack buffer by entering a string "ACEGBB" followed by more than 20 characters. The epilogue of `do_1b1()` then pops registers `ra` (the return address) and `s0` (the first callee-saved register) off the stack, which we control. Because the binary is statically linked, there are a ton of gadgets we could arrange in a ROP chain, but the easiest way to read the flag is to jump to the 0x107c4. Essentially, here we call `__libc_write([s0 - 0x18], s1, strlen([s0 - 0x24]))`. We control `s0` and the stack contents (we also know the stack address because the binary helpfully prints it for us) and `s1` already points to the contents of the flag in memory.

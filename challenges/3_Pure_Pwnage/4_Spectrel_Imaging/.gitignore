@@ -1,0 +1,10 @@
+static/a.out
+static/build/*
+*.pyc
+a.out
+*.pem
+.vscode
+*.bz2
+*.tgz
+static/o.txt
+cmds.txt

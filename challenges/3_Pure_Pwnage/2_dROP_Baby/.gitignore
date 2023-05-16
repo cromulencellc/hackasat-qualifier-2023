@@ -1,0 +1,4 @@
+log
+static/*.zip
+.DS_store
+build

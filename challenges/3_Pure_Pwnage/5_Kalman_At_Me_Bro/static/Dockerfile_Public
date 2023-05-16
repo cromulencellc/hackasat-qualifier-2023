@@ -1,0 +1,20 @@
+# You may use this container to replicate the challenge run environment
+FROM ubuntu@sha256:b25ef49a40b7797937d0d23eca3b0a41701af6757afca23d504d50826f0b37ce
+ARG DEBIAN_FRONTEND=noninteractive
+
+ARG TZ=Etc/UTC
+RUN apt update \ 
+    && apt upgrade -y \
+    && apt install -y \
+    build-essential \
+    wget \
+    ca-certificates \ 
+    build-essential \
+    cmake \
+    unzip \
+    python3 \
+    python3-pip\
+    && apt-get clean autoclean \ 
+    && rm -rf /var/lib/apt/lists/*
+
+    

@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "iced": "npm:iced-x86@1.18.0",
+    "elfinfo": "npm:elfinfo@0.4.0-beta"
+  },
+  "scopes": {}
+} 

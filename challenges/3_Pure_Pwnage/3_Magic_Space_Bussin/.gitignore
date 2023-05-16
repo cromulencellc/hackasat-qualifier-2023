@@ -1,0 +1,31 @@
+# Cache Files
+__pycache__
+.gdb_history
+
+# Cmake Build Files
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+static/**Makefile
+static/build
+build
+
+# Binaries
+data
+magic_space_bus
+*.a
+
+# Logs
+log
+
+# Other
+glibc
+malloc
+build/malloc
+build/malloc.c
+notes
+fake
+malloc.c
+magic_public
+magic_public.tar.gz
+static/*zip
